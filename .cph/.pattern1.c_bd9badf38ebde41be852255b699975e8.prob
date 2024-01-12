@@ -1,0 +1,1 @@
+{"name":"Local: pattern1","url":"d:\\Programming\\program\\Extra\\function & pointer\\pattern\\pattern1.c","tests":[{"id":1705027942470,"input":"5","output":""},{"id":1705028008894,"input":"10","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\Programming\\program\\Extra\\function & pointer\\pattern\\pattern1.c","group":"local","local":true}

@@ -1,6 +1,13 @@
 #include <stdio.h>
 int main()
 {
+    /* 
+    *
+   ***
+  *****
+ *******
+*********
+     */
     int n, s, k;
     scanf("%d", &n);
     s = n - 1; k = 1;

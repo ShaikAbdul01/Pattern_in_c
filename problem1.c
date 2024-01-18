@@ -3,35 +3,27 @@ int main()
 {
     /* 
     *
-   * *
-  *   *
- *     *
-*********
+   **
+  ***
+ ****
+*****
      */
     int n;
     scanf("%d", &n);
     int s = n - 1, k = 1;
     for (int i = 1; i <= n; i++)
     {
-        for (int j = 1; j <= s; j++)
+        for (int j = s; j >= 1; j--)
         {
             printf(" ");
         }
         for (int j = 1; j <= k; j++)
         {
-            if (j == 1 || i == n || j == k)
-            {
-                printf("*");
-            }
-            else
-            {
-                printf(" ");
-            }
+            printf("*");
         }
         s--;
-        k += 2;
+        k++;
         printf("\n");
     }
     return 0;
 }
-
